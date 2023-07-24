@@ -9,7 +9,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @SpringBootApplication
 @EnableJpaRepositories(basePackages = "com.example.repository")
-@EntityScan(basePackages = "dev.omedia.domain")
+@EntityScan(basePackages = "com.example.domain")
 @ComponentScan(basePackages = {
         "com.example.repository",
         "com.example.service",
